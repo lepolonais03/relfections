@@ -7,14 +7,18 @@ It is a "temporary" place where to put files that are to be updated in the next 
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+By only putting in the staging area the files that this logical change affects
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+For experimenting a new feature of a code for example by always keeping the main version of the code which can still be modified. It is also especially useful when the project is shared publicly
 
 How do the diagrams help you visualize the branch structure?
+By pointing out the commits unreachable and the different "legacy" from one commit to another. It also enables to roughly know the "chronology" at which the branches were created.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result is one branch that can reach any commit from the two previous branches with the merged files 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
